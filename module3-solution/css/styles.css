@@ -1,1 +1,55 @@
 
+* {
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+section.container-fluid {
+    margin: 10px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.menu-item-1 {
+    background-color: rgb(233, 168, 142);
+}
+
+.menu-item-2 {
+    background-color: rgb(218, 162, 162);
+}
+
+.menu-item-3 {
+    background-color: rgb(179, 209, 221);
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    background-color:lightpink;
+    color: white;
+}
+
+.navbar-default .navbar-nav > li > a {
+    background-color: rgb(223, 223, 223);
+}
+/*.navbar-default #bs-example-navbar-collapse-1 {
+    background-color:rgb(206, 152, 132);
+    color: white;
+}*/
+
+.navbar-nav {
+    margin-top: 0px;
+}
+
+div.container-fluid {
+    background-color: rgb(241, 231, 227);
+    color: black;
+    
+}
+
